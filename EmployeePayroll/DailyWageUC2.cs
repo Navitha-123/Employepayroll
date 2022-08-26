@@ -14,7 +14,6 @@ namespace EmployeePayroll
             const int EMP_RATE_PER_HOUR = 20;
             Random random = new Random();
             int empCheck = random.Next(0, 2);//0,1
-            Console.WriteLine("Random generated value " +emppayroll);
             if (empCheck == 0)
             {
                 Console.WriteLine("Employee Present");

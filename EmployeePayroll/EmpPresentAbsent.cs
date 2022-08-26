@@ -8,5 +8,14 @@ namespace EmployeePayroll
 {
     internal class EmpPresentAbsent
     {
+        public static void EmpAttendenceCheck()
+        {
+            Random random = new Random();
+            int empAtt = random.Next(2);
+            if (empAtt == 0)
+                Console.WriteLine("employee is present");
+            else
+                Console.WriteLine("employee is absent");
+        }
     }
 }

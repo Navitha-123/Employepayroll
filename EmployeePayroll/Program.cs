@@ -5,20 +5,26 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Employee Wage Payroll");
-            Console.WriteLine("choose option\n 1.check absent \t 2. DailyWage \t 3. PartTimeWage \t 4.emp wage for month ");
+            Console.WriteLine("choose option\n 1.check absent \t 2. DailyWage \t 3. PartTimeWage  \t 4.Daily wage switch \t 5.emp wage for month ");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
             case 1:
-                 EmployeeUCpresentorabsent.EmpAttendenceCheck();
+                 EmpPresentAbsent.EmpAttendenceCheck();
                     break;
                 case 2:
                     DailyWageUC2.CalculateDailyWage();
                     break;
-                case3:
+                case 3:
+
                     PartTimeWage.CalculatePercentage();
-                case4:
+                    break;
+                case 4:
+                    SwitchCase.CalculateDailyWageswitch();
+                    break;
+                case 5:
                     WageForMonth.CalculateWageForMonth();
+                    break;
                 default:
                     Console.WriteLine( "Enterd wrong choice");
                 break;

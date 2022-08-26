@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace EmployeePayroll
 {
-    internal class PartTimeWage
+    public class PartTimeWage
     {
         public static void CalculatePercentage()
         {
-            Console.WriteLine("Enter your percentage: ");
+           /* Console.WriteLine("Enter your percentage: ");
             int percentage=Convert.ToInt32(Console.ReadLine());
 
             if(percentage>=80)
@@ -28,7 +28,7 @@ namespace EmployeePayroll
             else
             {
                 Console.WriteLine("C");
-            }
+            }*/
 
             const int IS_FULL_TIME = 1;
             const int IS_PART_TIME = 2;
@@ -53,8 +53,8 @@ namespace EmployeePayroll
                 empHrs = 0;
                 Console.WriteLine("Emp absent");
             }
-            int empWage=empHrs*EMP_RATE_PER_HOUR
-            Console.WriteLine(" emp daily wage including part time")
+            int empWage = empHrs * EMP_RATE_PER_HOUR;
+            Console.WriteLine(" emp daily wage including part time is " + empWage);
         }
     }
 }
