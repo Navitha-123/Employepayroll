@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeePayroll
 {
-    internal class SwitchCase
+    internal class EmpSwitchCase
     {
         public static void CalculateDailyWageswitch()
         {

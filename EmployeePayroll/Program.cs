@@ -10,20 +10,20 @@
             switch(option)
             {
             case 1:
-                 EmpPresentAbsent.EmpAttendenceCheck();
+                // EmpPresentAbsent.EmpAttendenceCheck();
                     break;
                 case 2:
-                    DailyWageUC2.CalculateDailyWage();
+                    //EmpDailyWage.CalculateDailyWage();
                     break;
                 case 3:
 
-                    PartTimeWage.CalculatePercentage();
+                   // PartTimeWage.CalculatePercentage();
                     break;
                 case 4:
-                    SwitchCase.CalculateDailyWageswitch();
+                  //  EmpSwitchCase.CalculateDailyWageswitch();
                     break;
                 case 5:
-                    WageForMonth.CalculateWageForMonth();
+                      WageForMonth.CalculateWageForMonth();
                     break;
                 default:
                     Console.WriteLine( "Enterd wrong choice");
