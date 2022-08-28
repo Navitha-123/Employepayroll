@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeePayroll
 {
-    internal class DailyWageUC2
+    internal class EmpDailyWage
     {
         public static void CalculateDailyWage()
         {
